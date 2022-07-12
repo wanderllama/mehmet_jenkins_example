@@ -12,7 +12,7 @@ import org.openqa.selenium.Keys;
 public class Test {
     @Then("User is redirected to the results")
     public void userIsRedirectedToTheResults() {
-        Assert.assertTrue(Driver.getDriver().getTitle().contains("Apple"));
+        Assert.assertTrue(Driver.getDriver().getTitle().contains("Google"));
     }
 
     @Given("User is on google home page")
